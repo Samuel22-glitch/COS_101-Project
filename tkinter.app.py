@@ -2,29 +2,28 @@ import tkinter as tk
 from tkinter import messagebox
 
 
-Igbo_dict = {
-    'Bia': 'come',
-    'Mmirri': 'water',
-    'Gawa': 'go',
-    'Mmanu': 'oil',
-    'otutu': 'morning',
-    'walli': 'take',
-    'ntutu': 'hair',
-    'akwa': 'cloth',
-    'Awu': 'goat',
-    'Nnkita': 'Dog',
-    'Nwa': 'child',
-    'Anwu': 'sun',
-    'Nwoke': 'brother',
-    'Bata': 'enter',
-    'Biko': 'please',
-    'Echi': 'tomorrow',
-    'Ashhia': 'market',
-    'Okporoko': 'stockfish',
-    'Oge': 'time',
-    'Eze': 'king',
+hausa_dict ={
+    'ruwa': "water",
+    'Rago': "sheep",
+    'Abinchi':"Food",
+    'tarkada':"book",
+    'kare':"dog",
+    'mota': "car",
+    'nama':"meat",
+    'talkami':"shoe",
+    'riga':"clothe",
+    'gashi':"hair",
+    'kujera':"chair",
+    'makaranta':"school",
+    'shayi':"tea",
+    'baba':"father",
+    'mama':"mother",
+    'yaro':"boy",
+    'likita':"doctor",
+    'akwuiya':"goat",
+    'wakar':"music",
+    'keke':"bike"    
 }
-
 Igala_dict = {
     'good morning': 'olodudu',
     'thanks': 'agba',
@@ -118,8 +117,13 @@ French_dict = {
     "soleil": "sun"
 }
 
-
-
+dictionaries ={
+    "Igala dictionary": igala_dict,
+    "Efik dictionary": Efik_dict,
+    "Ijaw dictionary": ijaw_dict,
+    "French dictionary": french_dict,
+    "Hausa dictionary": hausa_dict
+    
 root = tk.Tk()
 root.title("Dictionary App")
 root.geometry("500x400")
