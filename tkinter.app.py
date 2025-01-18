@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 
-hausa_dict ={
+Hausa_dict ={
     'ruwa': "water",
     'Rago': "sheep",
     'Abinchi':"Food",
@@ -118,11 +118,11 @@ French_dict = {
 }
 
 dictionaries ={
-    "Igala dictionary": igala_dict,
+    "Igala dictionary": Igala_dict,
     "Efik dictionary": Efik_dict,
-    "Ijaw dictionary": ijaw_dict,
-    "French dictionary": french_dict,
-    "Hausa dictionary": hausa_dict
+    "Ijaw dictionary": Ijaw_dict,
+    "French dictionary": French_dict,
+    "Hausa dictionary": Hausa_dict
     
 root = tk.Tk()
 root.title("Dictionary App")
