@@ -122,7 +122,8 @@ dictionaries ={
     "Efik dictionary": Efik_dict,
     "Ijaw dictionary": Ijaw_dict,
     "French dictionary": French_dict,
-    "Hausa dictionary": Hausa_dict
+    "Hausa dictionary": Hausa_dict,
+}
     
 root = tk.Tk()
 root.title("Dictionary App")
